@@ -18,7 +18,7 @@ export const env = {
         serviceRoleKey: process.env.SUPABASE_SERVICE_ROLE_KEY,
         bucket: process.env.SUPABASE_BUCKET,
     }
-}
+};
 
 ['mongoUri', 'jwt', 'qrSigningSecret', 'supabase'].forEach((k) =>{
     if (k === 'jwt') {
