@@ -1,4 +1,4 @@
-import { User } from '..models/User.js';
+import { User } from '../models/User.js';
 import { signAccessToken, signRefreshToken } from '../utils/jwt.js';
 import { AppError } from '../utils/errors.js';
 
