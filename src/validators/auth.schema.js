@@ -11,9 +11,9 @@ export const registerSchema = z.object({
         .transform(r => r?.trim().toLowerCase())
         .optional()
         .transform(r => (r && allowedRoles.includes(r)) ? r : undefined)
-});
+})
 
 export const loginSchema = z.object({
     email: z.string().email(),
     password: z.string().min(8).max(128)
-});
+})
