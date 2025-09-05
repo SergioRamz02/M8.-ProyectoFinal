@@ -10,4 +10,4 @@ export function validateBody(schema) {
       next(err);
     }
   };
-};
+}
